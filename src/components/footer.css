@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+footer{
+   width: 100%;
+    height: 70vh;
+    background-color: #ff534a;
+    border: none;
+    border-radius: 50px 50px 0px 0px;
+}
+.footer-heading{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.footer-heading > h1{
+    font-size: 60px;
+}
+img{
+    width: 600px;
+    height: auto;
+    margin-top: 60px;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 22px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  min-width: 220px;
+}
+
+.store-btn i {
+  font-size: 28px;
+}
+
+.store-btn span {
+  font-size: 11px;
+  display: block;
+  color: #555;
+}
+
+.store-btn strong {
+  font-size: 16px;
+  color: #000;
+  line-height: 1;
+}
+
+.store-btn.apple i {
+  color: #000;
+}
+.store-btn.google i {
+  color: #34a853;
+}
+.store-btn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+@media (max-width: 600px) {
+  .store-buttons {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.about {
+  width: auto;
+  height: 120vh;
+}
+.side_img{
+    width: auto;
+    height: 600px;
+}
+.about_heading {
+  font-weight: 700;
+  font-size: 40px;
+}
+.about_parah {
+  font-size: 13px;
+}
+.about-card-div {
+  padding: 15px;
+  width: 450px;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  background-color: #f2f2f2;
+}
+
+.card-div h5 {
+  font-size: clamp(18px, 2.5vw, 22px);
+  font-weight: 600;
+}
+
+.card-div p {
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 1.6;
+}
