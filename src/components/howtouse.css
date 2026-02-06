@@ -4,15 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
 .howtouse{
     width: 100%;
-    height: 90vh;
+    height: 600px;
     color: black;
 }
 .head_howtoues > h1{

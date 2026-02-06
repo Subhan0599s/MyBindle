@@ -7,7 +7,7 @@ function Hero() {
         <section className="hero container-fluid py-2">
         <div className="row align-items-center">
         <div className="col-12 col-md-6 text_hero text-sm-start text-md-start  mb-5">
-          <h1 className="heading_hero d-none d-lg-block">
+          <h1 className="heading_hero d-none d-md-block">
             Stay Connected <br />
             Stay Social <br />
             Stay You!
@@ -22,12 +22,12 @@ function Hero() {
           <p className="parah2 d-block d-md-none">
             Stay Hello to the future <br /> of Secure communication
           </p>
-        <button className="btn btn-light text-danger d-none d-lg-block mb-5">
+        <button className="btn btn-light text-danger d-none d-md-block mb-5">
           Get Started
         </button>
       </div>
     <div className="col-12 col-md-6 text-center mt-4">
-      <img src={Img1} className="img-fluid Img_hero d-none d-lg-block" alt="hero" />
+      <img src={Img1} className="img-fluid Img_hero d-none d-md-block" alt="hero" />
       <img src={Img2} className="img-fluid Img_hero2 d-block d-md-none" alt="hero" />
     </div>
   </div>

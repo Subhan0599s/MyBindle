@@ -4,15 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
 footer{
    width: 100%;
-    height: 70vh;
+    height: 400px;
     background-color: #ff534a;
     border: none;
     border-radius: 50px 50px 0px 0px;
