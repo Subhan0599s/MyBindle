@@ -1,10 +1,11 @@
 function ServicesCard({ head, text}) {
   return (
-            <div className="col-12 col-sm-10 col-md-6 col-lg-4">
+            <div className="col-12 col-sm-10 col-md-6git commit
+ col-lg-4">
               <div className="card card-div text-center p-4 m-3">
                 <h5 className="mb-2">{head}</h5>
 
-                <p className="mb-0 text-muted text-wrap">
+                <p className="mb-0 text-muted text-wrap">y
                   {text}
                 </p>
               </div>
