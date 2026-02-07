@@ -5,13 +5,17 @@ function Services() {
     <>
       <section className="services container-fluid mb-5">
         <div className="container text-center py-5 d-text">
-          <h1 className="mt-5 fw-bold">Features That Keep You Hooked!</h1>
-          <p className="mt-3 fs-5 text-black fw-bold">
-            Meet, Chat, Share – Anytime, Anywhere!{" "}
+          <h1 className="mt-5 fw-bold d-none d-md-block">Features That Keep You Hooked!</h1>
+          <h1 className="mt-5 fw-bold d-block d-sm-none">Addictive Core Features</h1>
+          <p className="mt-3 fs-5 text-black fw-bold d-block d-sm-none">
+
+          </p>
+          <p className="mt-3 fs-5 text-black fw-bold ">
+            Meet, Chat, Share – Anytime, Anywhere!
           </p>
         </div>
         <div className="container my-4">
-          <div className="row justify-content-center card-container">
+          <div className="row justify-content-center card-container me-5">
             <ServicesCard 
             head={"🔥 Seamless Connections"}
             text={"Stay in touch with friends, family, and like-minded people with just a tap."}
@@ -24,15 +28,15 @@ function Services() {
             head={"💬 Real-Time Chat<"}
             text={"Whether it's a DM or a group conversation, connect instantly with smooth, lightning-fast messaging."}
             />
-            <ServicesCard 
+            <ServicesCard
             head={"🔒 Privacy First"}
             text={"Your data, your control. We prioritize your privacy with world-class security."}
             />
-            <ServicesCard 
+            <ServicesCard
             head={"🌎 Discover & Explore"}
             text={"Find trending content, join communities, and follow pages that match your interests."}
             />
-            <ServicesCard 
+            <ServicesCard
             head={"💼 Grow Your Business"}
             text={"Use our platform to market your brand, connect with customers,and build meaningful relationships."}
             />

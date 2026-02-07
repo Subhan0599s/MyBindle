@@ -11,7 +11,7 @@ import Header from './components/navbar.jsx';
 
 function App() {
   return (
-    <>
+        <>
     <Header />
     <Hero />
     <Services />

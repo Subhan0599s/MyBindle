@@ -9,16 +9,23 @@ function Footer() {
           className="footer-heading"
           style={{ padding: "40px", position: "relative" }}
         >
-          <h1 style={{ position: "relative", zIndex: 3, color: "white" }}>
-            Be the Reason <br /> Someone Smiles Today!
+          <h1 className="d-none d-md-block" style={{ position: "relative", zIndex: 3, color: "white" }}>
+            Be the Reason Someone <br /> Smiles Today!
           </h1>
-          <p>
-            Your generosity can change lives every donation brings hope,
-            support, and a brighter <br /> future. Give today and make a
+          <h1 className="d-block d-md-none" style={{ position: "relative", zIndex: 3, color: "white" }}>
+            Be The Smile Today
+          </h1>
+          <p className="d-none d-md-block">
+            Your generosity can change lives every donation brings hope,<br />
+            support, and a brighter future. Give today and make a
             difference!
           </p>
-          <div className="store-buttons py-4">
-            <button className="store-btn apple">
+          <p className="d-block d-md-none">
+            Give today and make a
+            difference!
+          </p>
+          <div className="store-buttons d-none d-md-block py-4">
+            <button className="store-btn apple mb-3">
               <i className="fa-brands fa-apple"></i>
               <div>
                 <span>Download on the</span>
@@ -26,7 +33,7 @@ function Footer() {
               </div>
             </button>
 
-            <button className="store-btn google">
+            <button className="store-btn google mt-3">
               <i className="fa-brands fa-google-play"></i>
               <div>
                 <span>Get it on</span>
@@ -34,14 +41,14 @@ function Footer() {
               </div>
             </button>
           </div>
-          <img
+          <img className="img_footer"
             src={Img4}
             style={{
               position: "absolute",
               right: 0,
               top: 0,
               zIndex: 1,
-              marginRight: "130px",
+              marginRight: "20px",
             }}
           />
         </div>

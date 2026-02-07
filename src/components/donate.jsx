@@ -4,16 +4,39 @@ function Donate() {
   return (
     <>
       <section className="Donate container-fluid d-flex">
-        <div className="donate-heading" style={{ padding : "70px",position: "relative" }}>
-          <h1 style={{ position: "relative", zIndex: 3, color: "white" }}>
+        <div
+          className="donate-heading"
+          style={{ padding: "30px", position: "relative" }}
+        >
+          <h1
+            style={{ position: "relative", zIndex: 3, color: "white" }}
+            className="d-none d-md-block"
+          >
             Be the Reason <br /> Someone Smiles Today!
           </h1>
-          <p>
+          <h1
+            style={{ position: "relative", zIndex: 3, color: "white" }}
+            className="d-block d-md-none"
+          >
+            Spread Smiles Today
+          </h1>
+          <p className="d-none d-md-block">
             Your generosity can change lives every donation brings hope,
-            support, and a brighter <br /> future. Give today and make a difference!
+            <br />
+            support, and a brighter future. Give today and make a difference!
           </p>
+          <p className="d-block d-md-none">Every donation brings hope. Make a difference today.</p>
           <button className="btn btn-light text-danger">Donate Now</button>
-          <img src={Img3} style={{position: "absolute",right: 0,top: 0,zIndex: 1,marginRight: "130px"}} />
+          <img
+            src={Img3}
+            style={{
+              position: "absolute",
+              right: 0,
+              top: 0,
+              zIndex: 1,
+              marginRight: "40px",
+            }}
+          />
         </div>
       </section>
     </>

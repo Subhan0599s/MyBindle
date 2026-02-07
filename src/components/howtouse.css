@@ -1,30 +1,113 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+.howtouse {
+  width: 100%;
+  height: 600px;
+  color: black;
 }
-.howtouse{
-    width: 100%;
-    height: 600px;
-    color: black;
+.head_howtoues > h1 {
+  font-size: 40px;
+  font-weight: 600;
 }
-.head_howtoues > h1{
-    font-size: 40px;
-    font-weight: 600;
+.head_howtoues > p {
+  font-size: 14px;
+  font-weight: 400;
 }
-.head_howtoues > p{
-    font-size: 14px;
-    font-weight: 400;
-}
-.count{
-    width: 60%;
+.count {
+  width: 60%;
 }
 .hr_count {
-        border: none;    
-        height: 1px;     
-        background-color: #000000;
-        margin: 25px 0;
-        width: 40%;
-        border-radius: 50px; 
+  border: none;
+  height: 1px;
+  background-color: #000000;
+  margin: 25px 0;
+  width: 40%;
+  border-radius: 50px;
+}
+.card-div-howtouse {
+  width: 350px;
+  height: 150px;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  background-color: #f2f2f2;
+}
+@media (max-width: 768px) {
+  .howtouse {
+    width: 80%;
+    height: 800px;
+  }
+  .head_howtoues > h1 {
+    font-size: 38px;
+  }
+  .head_howtoues > p {
+    font-size: 17px;
+  }
+  .vr_count {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin-left: -0.5rem;
+    width: 40%;
+    border-radius: 50px;
+    transform: rotate(90deg);
+  }
+  .count > h1 {
+    width: fit-content;
+  }
+  .card-div-howtouse {
+    height: auto;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: #f2f2f2;
+  }
+  .card-div-howtouse h1 {
+    font-size: clamp(18px, 2.5vw, 22px);
+    font-weight: 600;
+  }
+
+  .card-div-howtouse p {
+    font-size: clamp(14px, 2vw, 16px);
+    line-height: 1.6;
+  }
+}
+@media (max-width: 412px) {
+  .howtouse {
+    width: 80%;
+    height: 800px;
+  }
+  .head_howtoues > h1 {
+    font-size: 38px;
+  }
+  .head_howtoues > p {
+    font-size: 17px;
+  }
+  .vr_count {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin-left: -0.5rem;
+    width: 40%;
+    border-radius: 50px;
+    transform: rotate(90deg);
+  }
+  .count > h1 {
+    width: fit-content;
+  }
+  .card-div-howtouse {
+    width: 250px;
+    height: auto;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: #f2f2f2;
+  }
+  .card-div-howtouse h1 {
+    font-size: clamp(18px, 2.5vw, 22px);
+    font-weight: 600;
+  }
+
+  .card-div-howtouse p {
+    font-size: clamp(14px, 2vw, 16px);
+    line-height: 1.6;
+  }
 }

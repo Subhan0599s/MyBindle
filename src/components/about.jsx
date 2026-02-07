@@ -6,18 +6,17 @@ function About() {
     <>
       <section className="container-fluid about">
         <div className="row">
-          <div className="col-6 py-5 text-center">
+          <div className="col-12 col-lg-6 col-md-6 py-5 text-center d-none d-md-block">
             <img src={Img2} className="my-5 side_img" />
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-10 col-md-8 col-lg-6 py-5 px-4 px-md-5 text-center ">
             <div className="about_content text-black">
               <h1 className="about_heading my-4">
                 Where Every Click <br /> Sparks a Connection!
               </h1>
-              <p className="text-black about_parah py-4">
-                A small act of kindness today can create a lifetime of impact
-                for someone in <br /> need. Give from the heart and change a
-                life!
+              <p className="text-black about_parah py-2">
+                A small act of kindness can change a life.<br />
+Give from the heart today.
               </p>
             </div>
             <div className="container-fluid d-flex">

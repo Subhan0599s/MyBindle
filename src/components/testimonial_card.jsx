@@ -1,15 +1,15 @@
 function TestimonialCard({ text, name, country, Img}) {
   return (
-      <div className="col-4">
-        <div className="card card-div-testimonial p-4 m-3">
-            <span className="mb-4">
+      <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+        <div className="card-div-testimonial m-5 pt-4">
+            <span className="m-4">
                 <i className="fa-solid fa-star" style={{color:"gold"}}></i>
                 <i className="fa-solid fa-star" style={{color:"gold"}}></i>
                 <i className="fa-solid fa-star" style={{color:"gold"}}></i>
                 <i className="fa-solid fa-star" style={{color:"gold"}}></i>
                 <i className="fa-solid fa-star" style={{color:"gold"}}></i>
             </span>
-          <p className="mb-0 text-muted text-wrap">
+          <p className="mt-3 mb-3 p-2 text-muted text-wrap">
             {text}
           </p>
           <div className="d-flex">
